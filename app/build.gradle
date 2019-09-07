@@ -59,6 +59,7 @@ dependencies {
     //google play services maps
     implementation "com.google.android.gms:play-services-maps:${versions.google.play}"
     //google play services location and places
+    //noinspection GradleDependency
     implementation "com.google.android.gms:play-services-location:${versions.google.play}"
     implementation "com.google.android.gms:play-services-places:${versions.google.play}"
 
