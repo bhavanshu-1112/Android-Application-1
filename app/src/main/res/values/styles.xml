@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Set AppCompat’s actionBarStyle -->
+
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">@color/blue_grey_900</item>
+    </style>
+    <style name="Theme.BusDialogTransparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/grey_400</item>
+    </style>
+    <style name="AboutHeader">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
